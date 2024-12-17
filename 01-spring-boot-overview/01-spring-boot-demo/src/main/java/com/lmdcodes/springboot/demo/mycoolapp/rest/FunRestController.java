@@ -8,7 +8,7 @@ public class FunRestController {
 	
 	@GetMapping("/")
 	public String Sayhello() {
-		return "Helo World!";
+		return "Helo World by Devtools!";
 	}
 	
 
