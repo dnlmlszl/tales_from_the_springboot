@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lmdcodes.springboot.demo</groupId>
-	<artifactId>02-dev-tools-demo</artifactId>
+	<artifactId>03-actuator-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>02-dev-tools-demo</name>
+	<name>03-actuator-demo</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
