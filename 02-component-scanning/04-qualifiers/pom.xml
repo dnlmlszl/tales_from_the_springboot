@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lmdcodes.springboot.demo</groupId>
-	<artifactId>03-setter-scanning</artifactId>
+	<artifactId>04-qualifiers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>03-setter-scanning</name>
+	<name>04-qualifiers</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
