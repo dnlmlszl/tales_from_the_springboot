@@ -4,6 +4,7 @@ import com.lmdcodes.cruddemo.dao.EmployeeDAO;
 import com.lmdcodes.cruddemo.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -22,5 +23,26 @@ public class EmployeeServiceImpl implements EmployeeService{
 
         return employeeDAO.findAll();
 
+    }
+
+    @Override
+    public Employee findById(int theId) {
+
+        return employeeDAO.findById(theId);
+
+    }
+
+    @Override
+    @Transactional
+    public Employee save(Employee theEmployee) {
+
+        return employeeDAO.save(theEmployee);
+    }
+
+    @Override
+    @Transactional
+    public void deleteById(int theId) {
+
+        employeeDAO.deleteById(theId);
     }
 }
